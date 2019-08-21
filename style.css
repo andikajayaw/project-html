@@ -4,7 +4,7 @@
 
 :root {
     --primary-color: #b90415;
-    --primary-color-hover: #d3071b;
+    --primary-color-hover: hsl(354, 94%, 43%);
     --secondary-color: #103063;
     --secondary-color-hover: #143f85;
     --light-color: #f4f4f4;
@@ -213,14 +213,6 @@ footer .footer-bottom {
     border-radius: 10px;
 }
 
-.btn-primary {
-    background: var(--primary-color);
-}
-
-.btn-primary:hover {
-    background: var(--primary-color-hover);
-}
-
 
 /* .btn-secondary {
     background: var(--secondary-color);
@@ -237,9 +229,6 @@ footer .footer-bottom {
 
 /* Text colors */
 
-.text-primary {
-    color: var(--primary-color);
-}
 
 .text-secondary {
     color: var(--secondary-color);
