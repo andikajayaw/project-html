@@ -89,7 +89,7 @@ input[type=submit]:hover {
     font-size: 4rem;
 }
 
-section#entertainment {
+section#price-list {
     background: url('img/barber-background.png') no-repeat bottom/cover;
     padding: 10rem 0;
     opacity: 10;
