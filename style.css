@@ -126,13 +126,17 @@ section#price-list {
     width: 70%;
 }
 
+.top {
+    color: rgb(250, 250, 250)8, 245, 245);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
 /* Showcase */
 
 #showcase {
     margin: 0;
     padding: 0;
-    background: url('img/main-bg.jpg') no-repeat center/cover;
+    background: url('img/alwin-kroon-pszyJeq6DFs-unsplash.jpg') no-repeat center/cover;
     width: 100%;
     height: 100vh;
     position: relative;
