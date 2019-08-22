@@ -27,7 +27,7 @@
                         <a href='#price-list'>Price List</a>
                     </li>
                     <li>
-                        <a href='#gift-cards'>Membership</a>
+                        <a href='#barbers'>Barbers</a>
                     </li>
                     <li>
                         <a href='#contact'>Contact Us</a>
@@ -53,7 +53,6 @@
             <h2 class="section-head">
                 <img class="razor" src="img/barber.png" /> BarberKing Services
                 <div>
-
                     <div class="galery card">
                         <img src="img/mostafa-meraji-5Xmc98C3aXo-unsplash.jpg" alt="mostafa-meraji-5Xmc98C3aXo-unsplash">
                         <div class="frame">
@@ -74,7 +73,7 @@
                     <div class="galery card">
                         <img src="img/analise-benevides-tXQFxsX3QiI-unsplash.jpg" alt="analise-benevides-tXQFxsX3QiI-unsplash">
                         <div class="frame">
-                            <h5>Hair Serum</h5>
+                            <h5>Skin serum</h5>
                             <hr>
                         </div>
                     </div>
@@ -106,7 +105,7 @@
             <h1 class="section-head"> Our Price List
             </h1>
             <Br>
-            <table align="center" width="50%" class="tablefont" id="price">
+            <table width="auto" align="center" class="tablefont">
                 <tr>
                     <td>Hair Cut</td>
                     <td>Rp. 50.000,-</td>
@@ -143,45 +142,53 @@
         </div>
     </section>
 
-    <!-- Member Card Section -->
-    <section id="gift-cards" class="section bg-light">
-        <div class="container">
-            <div class="gift-cards">
-                <div>
-                    <img src="img/cards.png" class="cards" alt="">
-                </div>
-                <div>
-                    <h2>Member Cards</h2>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque expedita tempore quasi omnis a aut et totam illo fuga accusamus dolorum vero, ut harum consectetur. Minima molestias officiis culpa non sed dicta itaque. Et aliquam illo obcaecati molestias
-                        veritatis porro.
-                    </p>
-                    <p>Already have an myBarber Member Card?</p>
+    <!-- Barber Section -->
+    <section id="barbers" class="section bb-light">
+        <div class="container-gallery"></div>>
+        <div class="section-head">
+            <h4 class="title-barber">Our Professional Barber</h4>
+            <p class="p-barber">The barber profession here is certainly one steeped in tradition. Not much has changed in barbering, as this profession is still considered an art form that requires skill, training, a steady hand, and a sharp eye.</p>
+            <div class="barber-gallery">
+                <img src="img/ccaetano.jpg" alt="mostafa-meraji-5Xmc98C3aXo-unsplash" class="img-rounded" style="width: 200px">
+                <div class="frame">
+                    <h5>Felipe J.R</h5>
                     <hr>
-                    <a href="#" class="text-secondary">
-                        <i class="fas fa-chevron-right"></i> Redeem
-                    </a>
                 </div>
             </div>
+            <div class="barber-gallery">
+                <img src="img/luis.jpeg" alt="arthur-humeau-Twd3yaqA2NM-unsplash" class="img-rounded" style="width: 200px">
+                <h5>Luis Corner</h5>
+                <hr>
+            </div>
+            <div class="barber-gallery">
+                <img src="img/juve garcia.jpeg" class="img-rounded" style="width: 200px">
+                <h5>Juve Garcia</h5>
+                <hr>
+
+            </div>
+        </div>
         </div>
     </section>
 
-    <div class="container-contact" id="contact">
-        <h2 style="text-align: center; font-size: 3.5rem;">Change Your Hair Style Now!</h2>
-        <div class="row-contact">
-            <label for="firstName">First Name</label>
-            <input type="text" name="firstName" id="name" placeholder="First Name">
-            <label for="lastName">Last Name</label>
-            <input type="text" name="lastName" id="name" placeholder="Last Name">
-            <label for="address">Adress</label>
-            <input type="text" name="address" id="adress" placeholder="Adress">
-            <label for="phoneNumber">Phone Number</label>
-            <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone Number">
-            <label for="subject">Request</label>
-            <textarea name="subject" id="subject" cols="30" rows="10" placeholder="Write something.."></textarea>
-            <input type="submit" name="submit" id="submit" value="Submit">
+    <!--contact us-->
+    <form action="submit_page.html">
+        <div class="container-contact" id="contact" style="background-color:grey;">
+            <h2 style="text-align: center; font-size: 3.5rem;">Change Your Hair Style Now!</h2>
+            <div class="row-contact">
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="name" placeholder="First Name">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="name" placeholder="Last Name">
+                <label for="address">Adress</label>
+                <input type="text" name="address" id="adress" placeholder="Adress">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone Number">
+                <label for="subject">Request</label>
+                <textarea name="subject" id="subject" cols="30" rows="10" placeholder="Write something.."></textarea>
+                <input type="submit" name="submit" id="submit" value="Submit">
+            </div>
         </div>
-    </div>
+    </form>
 </body>
 
 </html>

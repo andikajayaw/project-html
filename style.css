@@ -41,11 +41,6 @@ img.razor {
 
 /* On mouse-over, add a deeper shadow */
 
-.card:hover {
-    box-shadow: 0 50px 50px 0 rgba(250, 250, 250, 0.37);
-    z-index: 2;
-}
-
 body {
     font-family: 'PT Sans', sans-serif;
     background-color: #252529;
@@ -61,6 +56,12 @@ body {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.img-rounded {
+    border-radius: 50%;
+    /* margin: 50px;
+    padding: 50px */
 }
 
 a {
@@ -131,15 +132,22 @@ section#price-list {
     padding: 3rem 0;
 }
 
-.gift-cards {
+.barbers {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
     text-align: left;
 }
 
-.cards {
-    width: 70%;
+.title-barber {
+    text-align: center;
+}
+
+.p-barber {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
 }
 
 .top {
@@ -270,12 +278,20 @@ footer .footer-bottom {
     font-family: 'Fredoka One', cursive;
 }
 
-.tablefont {
+P .tablefont {
     font-size: 1.7rem;
 }
 
 .text-center {
     text-align: center;
+}
+
+.barber-gallery {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 0;
+    margin: 5rem;
 }
 
 
@@ -292,6 +308,12 @@ footer .footer-bottom {
 .bg-light {
     background: var(--light-color);
     color: #333;
+    height: 820px
+}
+
+.bb-light {
+    background: white;
+    color: black;
 }
 
 .mb {
@@ -436,7 +458,7 @@ nav a#openup {
 }
 
 @media screen and (max-width: 780px) {
-    .gift-cards {
+    .barbers {
         grid-template-columns: 1fr;
     }
     footer .footer-cols {
