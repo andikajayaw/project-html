@@ -150,6 +150,11 @@ section#price-list {
     text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
 }
 
+.top-desc {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
 
 /* Navbar */
 
@@ -209,10 +214,8 @@ footer .footer-bottom {
 /* Utility Classes */
 
 .container-price {
-    /* max-width: 1180px; */
     text-align: center;
     margin: 0 auto;
-    /* padding: 0 3rem; */
 }
 
 .container-gallery {
@@ -226,7 +229,7 @@ footer .footer-bottom {
     max-width: 1180px;
     text-align: center;
     margin: 0 auto;
-    padding: 0 3rem;
+    padding: 3rem 3rem;
 }
 
 .head-paragraph {
