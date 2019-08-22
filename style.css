@@ -8,8 +8,8 @@
 /* CSS Variables */
 
 :root {
-    --primary-color: #103063;
-    --primary-color-hover: #143f85;
+    --secondary-color: #103063;
+    --secondary-color-hover: #143f85;
     --light-color: #f4f4f4;
 }
 
@@ -17,7 +17,7 @@
 /* Colors */
 
 .text-secondary {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .text-light {
@@ -140,6 +140,11 @@ input[type=submit]:hover {
     color: black;
 }
 
+.title-book {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .section-book {
     font-size: 2.5rem;
     margin: 0;
@@ -162,11 +167,6 @@ input[type=submit]:hover {
 .title-barber {
     text-align: center;
     font-family: 'Pacifico', cursive;
-}
-
-.title-book {
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .p-barber {
@@ -324,14 +324,11 @@ img.razor {
     font-family: 'Fredoka One', cursive;
 }
 
-
-
-    margin: 0 auto;
-}
-
 section#price-list {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/barber-background.png') no-repeat bottom/cover;
     padding: 3rem 0;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .tablefont {
