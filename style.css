@@ -164,15 +164,12 @@ section#price-list {
 }
 
 .top {
-<<<<<<< HEAD
     color: rgba(255, 255, 255, 1);
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-=======
     color: black;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 grey, 0 -1px grey;
     position: center;
     top: 0;
->>>>>>> bdf0d2a0d300ec500936bc2be4dc5c8453a9bed6
 }
 
 .title {
@@ -195,6 +192,7 @@ section#price-list {
 }
 
 .head-paragraph .top {
+    color: black;
     text-shadow: -0.1px 0 black, 0 0.1px black, 0.1px 0 black, 0 -0.1px black;
 }
 
