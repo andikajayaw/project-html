@@ -13,12 +13,13 @@
     --light-color: #f4f4f4;
 }
 .team {
-    margin: 500px;
+    margin: 10px;
     display: inline-block;
+    padding: 0;
 }
 .container-team {
     text-align: center;
-    max-width: 1180px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 3rem;
 }
@@ -522,4 +523,34 @@ footer .footer-cols ul li:first-child {
 footer .footer-bottom {
     background: #333;
     padding: 1rem;
+}
+.avatar {
+    margin: 0px 20px;
+    display: inline-block;
+    width: 300px;
+    max-height: 300px;
+    transition: 0.3s;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 10rem;
+    font-size: 3rem;
+    background-color: #000000
+    
+    
+}
+.thankyou {
+    text-align: center;
+    font-size: 10rem;
+    margin-bottom: 0 auto;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 grey, 0 -1px grey;
+}
+.submit h3 {
+    background: linear-gradient(rgba(185, 185, 185, 0.5), rgba(0, 0, 0, 0.5)), url('img/thank.jpg') no-repeat; 
+    font-family: 'Squada One', cursive;
+}
+/* .end {
+    background: linear-gradient(rgba(185, 185, 185, 0.5), rgba(0, 0, 0, 0.5)), url('img/end.jpg') no-repeat 
+} */
+.btn {
+    background: #000000;
+    border: 5px solid black;
 }
