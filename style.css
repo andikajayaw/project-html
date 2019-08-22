@@ -142,7 +142,7 @@ input[type=submit]:hover {
 
 .title-book {
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Fredoka One', cursive;
 }
 
 .section-book {
@@ -154,8 +154,22 @@ input[type=submit]:hover {
     color: black;
 }
 
+.p-book {
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size: 25px;
+    text-align: justify; */
+    font-size: 1.5rem;
+    text-align: center;
+    /* font-family: 'Fredoka One', cursive; */
+}
+
 
 /* Barber Section */
+
+.container-barber {
+    justify-content: center;
+    margin: 5rem;
+}
 
 .barbers {
     display: grid;
@@ -170,10 +184,17 @@ input[type=submit]:hover {
 }
 
 .p-barber {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    text-align: center;
-    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size: 25px;
+    text-align: justify; */
+    font-size: 1.47rem;
+    text-align: justify;
+    font-weight: 300;
+    /* font-family: 'Fredoka One', cursive; */
+}
+
+.container-paragraph-barber {
+    margin: 0 auto;
 }
 
 .section-barber {
@@ -195,11 +216,6 @@ input[type=submit]:hover {
     display: inline-block;
     padding: 0;
     margin: 5rem;
-}
-
-.container-barber {
-    justify-content: center;
-    margin: 0 auto;
 }
 
 
@@ -319,9 +335,29 @@ img.razor {
 
 /* p Class on About Section */
 
+.title-about {
+    margin: 0 auto;
+}
+
 .lead {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    text-align: justify;
     font-family: 'Fredoka One', cursive;
+}
+
+.about-paragraph {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.about-barber {
+    margin: 0 auto;
+}
+
+.section-about {
+    margin: 0;
+    padding: 5rem;
 }
 
 section#price-list {
