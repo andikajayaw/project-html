@@ -30,7 +30,7 @@
                         <a href='#barbers'>Barbers</a>
                     </li>
                     <li>
-                        <a href='#contact'>Contact Us</a>
+                        <a href='#reservation'>Reservation
                     </li>
                 </ul>
                 <a href='#' id='openup'>BarberKing</a>
@@ -83,8 +83,6 @@
                         <h5>Vitamins</h5>
                         <hr>
                     </div>
-
-
                 </div>
         </div>
     </section>
@@ -100,8 +98,34 @@
         </div>
     </section>
 
+    <!-- Barber Section -->
+    <section id="barbers" class="section bb-light">
+        <div class="section-barber">
+            <h4 class="title-barber">Our Professional Barber</h4>
+            <p class="p-barber">The barber profession here is certainly one steeped in tradition. Not much has changed in barbering, as this profession is still considered an art form that requires skill, training, a steady hand, and a sharp eye.</p>
+            <div class="barber-gallery">
+                <img src="img/ccaetano.jpg" alt="mostafa-meraji-5Xmc98C3aXo-unsplash" class="img-rounded" style="width: 300px">
+                <div class="frame">
+                    <h5>Felipe J.R</h5>
+                    <hr>
+                </div>
+            </div>
+            <div class="barber-gallery">
+                <img src="img/luis.jpeg" alt="arthur-humeau-Twd3yaqA2NM-unsplash" class="img-rounded" style="width: 300px">
+                <h5>Luis Corner</h5>
+                <hr>
+            </div>
+            <div class="barber-gallery">
+                <img src="img/juve garcia.jpeg" class="img-rounded" style="width: 300px">
+                <h5>Juve Garcia</h5>
+                <hr>
+            </div>
+        </div>
+        </div>
+    </section>
+
     <!-- Pricelist Section -->
-    <section id="price-list" class="section-price">
+    <section id="price-list" class="section">
         <div class="container-price">
             <h1 class="section-head"> Our Price List
             </h1>
@@ -143,52 +167,52 @@
         </div>
     </section>
 
-    <!-- Barber Section -->
-    <section id="barbers" class="section bb-light">
-        <div class="section-barber">
-            <h4 class="title-barber">Our Professional Barber</h4>
-            <p class="p-barber">The barber profession here is certainly one steeped in tradition. Not much has changed in barbering, as this profession is still considered an art form that requires skill, training, a steady hand, and a sharp eye.</p>
+    <!-- Book Section -->
+    <section id="book" class="section bb-book">
+        <div class="section-book">
+            <h4 class="title-book">Why Book With Us?</h4>
+            <p class="p-barber">Save your time booking our barber with 24/7 online booking system.<br>Easy Payment system with cashless payment option.</p>
             <div class="barber-gallery">
-                <img src="img/ccaetano.jpg" alt="mostafa-meraji-5Xmc98C3aXo-unsplash" class="img-rounded" style="width: 300px">
-                <div class="frame">
-                    <h5>Felipe J.R</h5>
+                <img src="img/cc.png" alt="cashless payment" style="width: 300px">
+                    <h5>Cashless Payment</h5>
                     <hr>
-                </div>
             </div>
             <div class="barber-gallery">
-                <img src="img/luis.jpeg" alt="arthur-humeau-Twd3yaqA2NM-unsplash" class="img-rounded" style="width: 300px">
-                <h5>Luis Corner</h5>
+                <img src="img/calendar.png" alt="bookonline247" style="width: 300px">
+                <h5>Book Online 24/7</h5>
                 <hr>
             </div>
             <div class="barber-gallery">
-                <img src="img/juve garcia.jpeg" class="img-rounded" style="width: 300px">
-                <h5>Juve Garcia</h5>
+                <img src="img/clock.png" style="width: 300px">
+                <h5>Save Queue Time</h5>
                 <hr>
-
             </div>
         </div>
         </div>
     </section>
 
     <!--contact us-->
-    <form action="submit_page.html">
-        <div class="container-contact" id="contact" style="background-color:grey;">
-            <h2 style="text-align: center; font-size: 3.5rem;">Change Your Hair Style Now!</h2>
-            <div class="row-contact">
-                <label for="firstName">First Name</label>
-                <input type="text" name="firstName" id="name" placeholder="First Name">
-                <label for="lastName">Last Name</label>
-                <input type="text" name="lastName" id="name" placeholder="Last Name">
-                <label for="address">Adress</label>
-                <input type="text" name="address" id="adress" placeholder="Adress">
-                <label for="phoneNumber">Phone Number</label>
-                <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone Number">
-                <label for="subject">Request</label>
-                <textarea name="subject" id="subject" cols="30" rows="10" placeholder="Write something.."></textarea>
-                <input class="btn" type="submit" name="submit" id="submit" value="Submit">
+    <section id="reservation">
+        <form action="submit_page.html">
+            <div class="container-contact" style="background-color:grey;">
+                <h2 style="text-align: center; font-size: 3.5rem;">Book Now!</h2>
+                <div class="row-contact">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="name" placeholder="First Name">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="name" placeholder="Last Name">
+                    <label for="address">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Email">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone Number">
+                    <label for="subject">Request</label>
+                    <textarea name="subject" id="subject" cols="30" rows="10" placeholder="Write something.."></textarea>
+                    <input class="btn" type="submit" name="submit" id="submit" value="Submit">
+                </div>
             </div>
-        </div>
-    </form>
+        </form>
+    </section>
+
 </body>
 
 </html>
