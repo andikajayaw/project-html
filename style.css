@@ -8,38 +8,35 @@
 /* CSS Variables */
 
 :root {
-    --primary-color: #b90415;
-    --primary-color-hover: hsl(354, 94%, 43%);
-    --secondary-color: #103063;
-    --secondary-color-hover: #143f85;
+    --primary-color: #103063;
+    --primary-color-hover: #143f85;
     --light-color: #f4f4f4;
 }
 
-img.razor {
-    height: 30px;
-    width: 30px;
-    border-radius: 5px;
+
+/* Colors */
+
+.text-secondary {
+    color: var(--primary-color);
+}
+
+.text-light {
+    color: var(--light-color);
+}
+
+.bg-light {
+    background: var(--light-color);
+    color: #333;
+    height: 820px
+}
+
+.bb-light {
+    background: rgba(191, 191, 191, 1);
+    color: black;
 }
 
 .btn {
     margin: 0 auto;
-}
-
-
-/* .frame {
-    
-} */
-
-.galery {
-    /* border: 1px solid #466995; */
-    margin: 20px;
-    display: inline-block;
-    width: 300px;
-    max-height: 100px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    font-family: 'Josefin Sans', sans-serif;
 }
 
 
@@ -72,6 +69,9 @@ a {
     text-decoration: none;
     color: #ccc;
 }
+
+
+/* Reservation Form */
 
 input[type=text],
 select,
@@ -126,12 +126,16 @@ input[type=submit]:hover {
     font-family: 'Pacifico', cursive;
 }
 
-.section-barber {
-    font-size: 2.5rem;
-    margin: 0;
-    font-family: 'Pacifico', cursive;
-    margin: 0 auto;
-    text-align: center;
+.section h3 {
+    font-size: 4rem;
+    font-family: 'Squada One', cursive;
+}
+
+
+/* Book with Us Section */
+
+.bb-book {
+    background: white;
     color: black;
 }
 
@@ -144,15 +148,8 @@ input[type=submit]:hover {
     color: black;
 }
 
-.section h3 {
-    font-size: 4rem;
-    font-family: 'Squada One', cursive;
-}
 
-section#price-list {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/barber-background.png') no-repeat bottom/cover;
-    padding: 3rem 0;
-}
+/* Barber Section */
 
 .barbers {
     display: grid;
@@ -177,6 +174,35 @@ section#price-list {
     text-align: center;
     margin: 10px;
 }
+
+.section-barber {
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.barber-gallery {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 0;
+    margin: 5rem;
+}
+
+.container-barber {
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+/* Header Section */
 
 .top {
     color: rgba(255, 255, 255, 1);
@@ -223,7 +249,28 @@ section#price-list {
 }
 
 
-/* Navbar */
+/* Services Gallery Class*/
+
+.galery {
+    /* border: 1px solid #466995; */
+    margin: 20px;
+    display: inline-block;
+    width: 300px;
+    max-height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+img.razor {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+
+/* Navbar Section */
 
 #showcase {
     margin: 0;
@@ -249,42 +296,6 @@ section#price-list {
     font-size: 3rem;
 }
 
-
-/* Footer */
-
-footer .footer-cols {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 2rem;
-    text-align: left;
-    font-size: 14px;
-}
-
-footer .footer-cols ul {
-    list-style: none;
-}
-
-footer .footer-cols ul li:first-child {
-    font-size: 1.2rem;
-    padding-bottom: 0.5rem;
-    border-bottom: #444 solid 1px;
-    margin-bottom: 1rem;
-}
-
-footer .footer-bottom {
-    background: #333;
-    padding: 1rem;
-}
-
-
-/* Utility Classes */
-
-.container-price {
-    text-align: center;
-    margin: 0 auto;
-}
-
 .container-gallery {
     max-width: 1180px;
     text-align: center;
@@ -304,65 +315,29 @@ footer .footer-bottom {
     font-weight: 300;
 }
 
+
+/* p Class on About Section */
+
 .lead {
     font-size: 1.3rem;
     font-family: 'Fredoka One', cursive;
 }
 
-.tablefont {
-    font-size: 1.7rem;
-}
 
-.text-center {
+/* Table Price List */
+
+.container-price {
     text-align: center;
-}
-
-.barber-gallery {
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    padding: 0;
-    margin: 5rem;
-}
-
-.container-barber {
-    justify-content: center;
     margin: 0 auto;
 }
 
-
-/* Colors */
-
-.text-secondary {
-    color: var(--secondary-color);
+section#price-list {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/barber-background.png') no-repeat bottom/cover;
+    padding: 3rem 0;
 }
 
-.text-light {
-    color: var(--light-color);
-}
-
-.bg-light {
-    background: var(--light-color);
-    color: #333;
-    height: 820px
-}
-
-.bb-light {
-    background: rgba(191, 191, 191, 1);
-    color: black;
-}
-
-.bb-book {
-    background: white;
-    color: black;
-}
-
-.mb {
-    margin-bottom: 1rem;
-}
-
-.mt {
-    margin-top: 1rem;
+.tablefont {
+    font-size: 1.7rem;
 }
 
 .section-head-table {
@@ -422,6 +397,9 @@ nav li:hover {
 nav a#openup {
     display: none;
 }
+
+
+/* Responsive Page */
 
 @media screen and (max-width: 580px) {
     .hide-on-small {
@@ -511,4 +489,32 @@ nav a#openup {
     #showcase p.lead {
         display: none;
     }
+}
+
+
+/* Footer */
+
+footer .footer-cols {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 14px;
+}
+
+footer .footer-cols ul {
+    list-style: none;
+}
+
+footer .footer-cols ul li:first-child {
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: #444 solid 1px;
+    margin-bottom: 1rem;
+}
+
+footer .footer-bottom {
+    background: #333;
+    padding: 1rem;
 }
