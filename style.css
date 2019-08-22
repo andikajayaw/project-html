@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @import url('https://fonts.googleapis.com/css?family=Bevan|Fredoka+One|Josefin+Sans|Pacifico|Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
 
 /* CSS Variables */
 
@@ -16,11 +19,17 @@ img.razor {
     height: 30px;
     width: 30px;
     border-radius: 5px;
-    
 }
+
+.btn {
+    margin: 0 auto;
+}
+
+
 /* .frame {
     
 } */
+
 .galery {
     /* border: 1px solid #466995; */
     margin: 20px;
@@ -35,11 +44,6 @@ img.razor {
 
 
 /* On mouse-over, add a deeper shadow */
-
-.card:hover {
-    box-shadow: 0 50px 50px 0 rgba(250, 250, 250, 0.37);
-    z-index: 2;
-  }
 
 body {
     font-family: 'PT Sans', sans-serif;
@@ -56,6 +60,12 @@ body {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.img-rounded {
+    border-radius: 50%;
+    /* margin: 50px;
+    padding: 50px */
 }
 
 a {
@@ -116,35 +126,74 @@ input[type=submit]:hover {
     font-family: 'Pacifico', cursive;
 }
 
+.section-barber {
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+
 .section h3 {
     font-size: 4rem;
     font-family: 'Squada One', cursive;
 }
 
 section#price-list {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/barber-background.png') no-repeat bottom/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/barber-background.png') no-repeat bottom/cover;
     padding: 3rem 0;
-    
 }
 
-.gift-cards {
+.barbers {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
     text-align: left;
 }
 
-.cards {
-    width: 70%;
+.title-barber {
+    text-align: center;
+}
+
+.p-barber {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
 }
 
 .top {
+<<<<<<< HEAD
     color: rgba(255, 255, 255, 1);
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+=======
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 grey, 0 -1px grey;
+    position: center;
+    top: 0;
+>>>>>>> bdf0d2a0d300ec500936bc2be4dc5c8453a9bed6
 }
+
+.title {
+    margin: 0;
+}
+
+.down {
+    color: white;
+    /* text-shadow: -1px 0 white, 0 1px #ffffff, 1px 0 grey, 0 -1px grey; */
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.title-down {
+    margin: 10px;
+    font-family: 'EB Garamond', serif;
+}
+
 .strong {
     font-size: 2rem;
 }
+
 .head-paragraph .top {
     text-shadow: -0.1px 0 black, 0 0.1px black, 0.1px 0 black, 0 -0.1px black;
 }
@@ -152,6 +201,12 @@ section#price-list {
 .top-desc {
     text-transform: uppercase;
     font-size: 2rem;
+    line-height: normal;
+}
+
+.logo-barber {
+    margin-top: 20px;
+    margin-bottom: -10px;
 }
 
 
@@ -160,7 +215,7 @@ section#price-list {
 #showcase {
     margin: 0;
     padding: 0;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/alwin-kroon-pszyJeq6DFs-unsplash.jpg') no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/alwin-kroon-pszyJeq6DFs-unsplash.jpg') no-repeat center/cover;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -178,7 +233,7 @@ section#price-list {
 }
 
 #showcase h2 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 
@@ -249,8 +304,21 @@ footer .footer-bottom {
     text-align: center;
 }
 
+.barber-gallery {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 0;
+    margin: 5rem;
+}
 
-/* Text colors */
+.container-barber {
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+/* Colors */
 
 .text-secondary {
     color: var(--secondary-color);
@@ -263,6 +331,12 @@ footer .footer-bottom {
 .bg-light {
     background: var(--light-color);
     color: #333;
+    height: 820px
+}
+
+.bb-light {
+    background: rgba(238, 238, 238, 1);
+    color: black;
 }
 
 .mb {
@@ -392,22 +466,22 @@ nav a#openup {
     }
 }
 
-.cf:before,
-.cf:after {
+.navbar:before,
+.navbar:after {
     content: '';
     display: table;
 }
 
-.cf:after {
+.navbar:after {
     clear: both;
 }
 
-.cf {
+.navbar {
     zoom: 1;
 }
 
 @media screen and (max-width: 780px) {
-    .gift-cards {
+    .barbers {
         grid-template-columns: 1fr;
     }
     footer .footer-cols {
