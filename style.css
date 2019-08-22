@@ -15,12 +15,12 @@
 img.razor {
     height: 30px;
     width: 30px;
-}
-
-.frame {
     border-radius: 5px;
+    
 }
-
+/* .frame {
+    
+} */
 .galery {
     /* border: 1px solid #466995; */
     margin: 20px;
@@ -38,7 +38,8 @@ img.razor {
 
 .card:hover {
     box-shadow: 0 50px 50px 0 rgba(250, 250, 250, 0.37);
-}
+    z-index: 2;
+  }
 
 body {
     font-family: 'PT Sans', sans-serif;
@@ -123,6 +124,8 @@ input[type=submit]:hover {
 section#price-list {
     background: url('img/barber-background.png') no-repeat bottom/cover;
     padding: 3rem 0;
+    opacity: 0.5;
+    filter: alpha(opacity=50%);
 }
 
 .gift-cards {
@@ -137,8 +140,14 @@ section#price-list {
 }
 
 .top {
-    color: rgb(250, 250, 250)8, 245, 245);
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: rgb(0, 0, 0);
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.strong {
+    font-size: 2rem;
+}
+.head-paragraph .top {
+    text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
 }
 
 .top-desc {
@@ -302,7 +311,7 @@ nav ul {
 
 nav li {
     display: inline;
-    float: left;
+    /* float: left; */
 }
 
 nav a {
