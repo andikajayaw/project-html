@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Bevan|Fredoka+One|Josefin+Sans|Pacifico|Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Squada+One&display=swap');
 
 /* CSS Variables */
 
@@ -11,30 +13,32 @@
 }
 
 img.razor {
-    background-color: rgba(255, 255, 255, 0.493);
     height: 30px;
     width: 30px;
+}
+
+.frame {
     border-radius: 5px;
 }
-.frame {
-    
-}
+
 .galery {
     /* border: 1px solid #466995; */
     margin: 20px;
     display: inline-block;
     width: 300px;
     max-height: 100px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-  
-  /* On mouse-over, add a deeper shadow */
-  .card:hover {
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
     box-shadow: 0 50px 50px 0 rgba(250, 250, 250, 0.37);
-  }
+}
 
 body {
     font-family: 'PT Sans', sans-serif;
@@ -88,7 +92,6 @@ input[type=submit]:hover {
 }
 
 .container-contact {
-    border-radius: 5px;
     padding: 2rem;
     width: 100%;
     margin: 0 auto;
@@ -105,19 +108,21 @@ input[type=submit]:hover {
 .section {
     padding: 2rem 0;
 }
+
 .section-head {
     font-size: 2.5rem;
     margin: 0;
+    font-family: 'Pacifico', cursive;
 }
 
 .section h3 {
     font-size: 4rem;
+    font-family: 'Squada One', cursive;
 }
 
 section#price-list {
     background: url('img/barber-background.png') no-repeat bottom/cover;
     padding: 3rem 0;
-    opacity: 10;
 }
 
 .gift-cards {
@@ -136,7 +141,8 @@ section#price-list {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-/* Showcase */
+
+/* Navbar */
 
 #showcase {
     margin: 0;
@@ -155,6 +161,7 @@ section#price-list {
 #showcase h1 {
     font-size: 5.5rem;
     margin-bottom: 0;
+    font-family: 'Pacifico', cursive;
 }
 
 #showcase h2 {
@@ -192,48 +199,47 @@ footer .footer-bottom {
 
 /* Utility Classes */
 
-.container {
+.container-price {
+    /* max-width: 1180px; */
+    text-align: center;
+    margin: 0 auto;
+    /* padding: 0 3rem; */
+}
+
+.container-gallery {
     max-width: 1180px;
     text-align: center;
     margin: 0 auto;
     padding: 0 3rem;
 }
 
+.container-head {
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.head-paragraph {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
 .lead {
     font-size: 1.3rem;
+    font-family: 'Fredoka One', cursive;
 }
-.tablefont{
+
+.tablefont {
     font-size: 1.7rem;
 }
+
 .text-center {
     text-align: center;
 }
 
 
-/* Buttons */
-
-.btn {
-    padding: 1rem;
-    color: #fff;
-    border-radius: 10px;
-}
-
-
-/* .btn-secondary {
-    background: var(--secondary-color);
-} */
-
-.button {
-    justify-content: center;
-}
-
-.btn-secondary:hover {
-    background: var(--secondary-color-hover);
-}
-
-
 /* Text colors */
-
 
 .text-secondary {
     color: var(--secondary-color);
@@ -255,22 +261,27 @@ footer .footer-bottom {
 .mt {
     margin-top: 1rem;
 }
-.section-head-table{
-    font-size : 4rem;
+
+.section-head-table {
+    font-size: 4rem;
 }
-table{
+
+table {
     border-collapse: collapse;
 }
-td{
+
+td {
     font-weight: bold;
     border-bottom: 1px solid #ddd;
     text-shadow: 1px 1px #000000;
 }
-    tr:hover {
-        opacity: 0.5;
-        background-color: #b3b3b3;
 
-    }
+tr:hover {
+    opacity: 0.5;
+    background-color: #b3b3b3;
+}
+
+
 /* Navigation */
 
 nav {
