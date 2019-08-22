@@ -164,7 +164,7 @@ section#price-list {
 #showcase {
     margin: 0;
     padding: 0;
-    background: url('img/alwin-kroon-pszyJeq6DFs-unsplash.jpg') no-repeat center/cover;
+    background: url('img/new5.jpg') no-repeat center/cover;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -254,7 +254,7 @@ footer .footer-bottom {
 }
 
 
-/* Text colors */
+/* Colors */
 
 .text-secondary {
     color: var(--secondary-color);
