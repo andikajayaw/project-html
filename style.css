@@ -21,6 +21,10 @@ img.razor {
     border-radius: 5px;
 }
 
+.btn {
+    margin: 0 auto;
+}
+
 
 /* .frame {
     
@@ -122,6 +126,15 @@ input[type=submit]:hover {
     font-family: 'Pacifico', cursive;
 }
 
+.section-barber {
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+
 .section h3 {
     font-size: 4rem;
     font-family: 'Squada One', cursive;
@@ -197,7 +210,7 @@ section#price-list {
 #showcase {
     margin: 0;
     padding: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/new6.jpeg') no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/alwin-kroon-pszyJeq6DFs-unsplash.jpg') no-repeat center/cover;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -278,7 +291,7 @@ footer .footer-bottom {
     font-family: 'Fredoka One', cursive;
 }
 
-P .tablefont {
+.tablefont {
     font-size: 1.7rem;
 }
 
@@ -292,6 +305,11 @@ P .tablefont {
     display: inline-block;
     padding: 0;
     margin: 5rem;
+}
+
+.container-barber {
+    justify-content: center;
+    margin: 0 auto;
 }
 
 
@@ -312,7 +330,7 @@ P .tablefont {
 }
 
 .bb-light {
-    background: white;
+    background: rgba(238, 238, 238, 1);
     color: black;
 }
 
