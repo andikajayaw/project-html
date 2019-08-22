@@ -135,6 +135,15 @@ input[type=submit]:hover {
     color: black;
 }
 
+.section-book {
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+
 .section h3 {
     font-size: 4rem;
     font-family: 'Squada One', cursive;
@@ -154,6 +163,12 @@ section#price-list {
 
 .title-barber {
     text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.title-book {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .p-barber {
@@ -333,7 +348,12 @@ footer .footer-bottom {
 }
 
 .bb-light {
-    background: rgba(238, 238, 238, 1);
+    background: rgba(191, 191, 191, 1);
+    color: black;
+}
+
+.bb-book {
+    background: white;
     color: black;
 }
 
