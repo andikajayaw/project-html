@@ -14,6 +14,16 @@
     --secondary-color-hover: #143f85;
     --light-color: #f4f4f4;
 }
+.team {
+    margin: 500px;
+    display: inline-block;
+}
+.container-team {
+    text-align: center;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
 
 img.razor {
     height: 30px;
