@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @import url('https://fonts.googleapis.com/css?family=Bevan|Fredoka+One|Josefin+Sans|Pacifico|Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
 
 /* CSS Variables */
 
@@ -141,9 +144,24 @@ section#price-list {
 
 .top {
     color: black;
-    text-shadow: -1px 0 yellow, 0 1px gold, 1px 0 gold, 0 -1px yellow;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 grey, 0 -1px grey;
     position: center;
     top: 0;
+}
+
+.title {
+    margin: 0;
+}
+
+.down {
+    color: white;
+    /* text-shadow: -1px 0 white, 0 1px #ffffff, 1px 0 grey, 0 -1px grey; */
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.title-down {
+    margin: 10px;
+    font-family: 'EB Garamond', serif;
 }
 
 .strong {
@@ -189,7 +207,7 @@ section#price-list {
 }
 
 #showcase h2 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 
@@ -403,17 +421,17 @@ nav a#openup {
     }
 }
 
-.cf:before,
-.cf:after {
+.navbar:before,
+.navbar:after {
     content: '';
     display: table;
 }
 
-.cf:after {
+.navbar:after {
     clear: both;
 }
 
-.cf {
+.navbar {
     zoom: 1;
 }
 
