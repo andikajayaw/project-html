@@ -306,6 +306,13 @@ img.razor {
     border-radius: 5px;
 }
 
+.section-services {
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
 
 /* Navbar Section */
 
@@ -382,10 +389,11 @@ img.razor {
 
 
 /* Pricelist Section */
-.bb-price{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/barber-background.png') no-repeat bottom/cover;
 
+.bb-price {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/barber-background.png') no-repeat bottom/cover;
 }
+
 .section-price {
     padding: 3rem 0;
     margin: 0 auto;
@@ -457,7 +465,8 @@ nav a#openup {
 
 /* Responsive Page */
 
-@media screen and (max-width: 580px) {
+
+/* @media screen and (max-width: 580px) {
     .hide-on-small {
         display: none;
     }
@@ -501,37 +510,38 @@ nav a#openup {
         transform: rotate(-90deg);
         -ms-transform: rotate(-90deg);
         /* IE 9 */
-        -webkit-transform: rotate(-90deg);
-        /* Safari and Chrome */
-        width: 30px;
-        height: 30px;
-        display: inline-block;
-        position: absolute;
-        right: 5px;
-        top: 20px;
-    }
-    nav a#openup {
-        display: block;
-        background-color: #333;
-        width: 100%;
-        position: relative;
-    }
+
+-webkit-transform: rotate(-90deg);
+
+/* Safari and Chrome */
+
+width: 30px;
+height: 30px;
+display: inline-block;
+position: absolute;
+right: 5px;
+top: 20px;
+
+}
+nav a#openup {
+    display: block;
+    background-color: #333;
+    width: 100%;
+    position: relative;
 }
 
+}
 .navbar:before,
 .navbar:after {
     content: '';
     display: table;
 }
-
 .navbar:after {
     clear: both;
 }
-
 .navbar {
     zoom: 1;
 }
-
 @media screen and (max-width: 780px) {
     .barbers {
         grid-template-columns: 1fr;
@@ -540,70 +550,73 @@ nav a#openup {
         display: none;
     }
 }
-
 @media screen and (max-height: 580px) {
     #showcase p.lead {
         display: none;
     }
 }
-
-
+*/
 /* Footer */
-
 footer .footer-cols {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4,
+    1fr);
     padding: 2rem;
     text-align: left;
     font-size: 14px;
 }
-
 footer .footer-cols ul {
     list-style: none;
 }
-
 footer .footer-cols ul li:first-child {
     font-size: 1.2rem;
     padding-bottom: 0.5rem;
     border-bottom: #444 solid 1px;
     margin-bottom: 1rem;
 }
-
 footer .footer-bottom {
     background: #333;
     padding: 1rem;
 }
-
 .avatar {
     margin: 0px 20px;
     display: inline-block;
     width: 235px;
     height: 235px;
     transition: 0.3s;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans',
+    sans-serif;
     border-radius: 10rem;
     font-size: 3rem;
     background-color: #000000
 }
-
 .thankyou {
     text-align: center;
-    font-size: 10rem;
-    margin-bottom: 0 auto;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 grey, 0 -1px grey;
+    font-size: 5rem;
+    margin: 0 auto;
+    text-shadow: -1px 0 black,
+    0 1px black,
+    1px 0 grey,
+    0 -1px grey;
 }
-
 .submit h3 {
-    background: linear-gradient(rgba(185, 185, 185, 0.5), rgba(0, 0, 0, 0.5)), url('img/thank.jpg') no-repeat;
-    font-family: 'Squada One', cursive;
+    background: linear-gradient(rgba(185,
+    185,
+    185,
+    0.5),
+    rgba(0,
+    0,
+    0,
+    0.5)),
+    url('img/thank.jpg') no-repeat;
+    font-family: 'Squada One',
+    cursive;
 }
-
 
 /* .end {
     background: linear-gradient(rgba(185, 185, 185, 0.5), rgba(0, 0, 0, 0.5)), url('img/end.jpg') no-repeat 
 } */
-
 .btn {
     background: #000000;
     border: 5px solid black;
